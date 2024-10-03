@@ -188,7 +188,7 @@ function playPause(){
         backIcon.classList.add("fa-backward")
     }
     if(actualsong[songIndex].color){
-        console.log("Musica possui a cor: "+actualsong[songIndex].color)
+        // console.log("Musica possui a cor: "+actualsong[songIndex].color)
         musicUi.style.background = actualsong[songIndex].color
     }
     else{
@@ -210,7 +210,7 @@ function playPause(){
         if(startedPlaying == false){
             
             console.log("clicado")
-            song.pause()
+            // song.pause()
             song.src = "media/"+actualsong[songIndex].code
         
             songImg.src = "media/"+ actualsong[songIndex].cover
