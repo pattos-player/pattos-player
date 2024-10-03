@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e0c18b9040.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="music-player" id="music-player">
+            <img id="songImg" src="media/playlist.jpg" class="song-img" alt="artist cover">
+            
+            
+            <h1 id="songTitle">you belong with me</h1>
+            <p id="artistName">toque para iniciar a playlist</p>
+
+            <audio  id="song">
+                <source  src="media/youbelong.flac" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="progress">
+            <div class="songtime">
+                <p class="currentTime">00:00</p>
+                <p class="songTime">00:00</p>
+            </div>
+            <div class="controls">
+                <div onclick="previousSong()"><i class="fa-solid fa-shuffle" id="backIcon"></i></div>
+                <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+                <div onclick="nextSong()"><i class="fa-solid fa-forward"></i></div>
+            </div>
+            <nav>
+                
+                <div class="circle">
+                    <i id="options" class="fa-solid fa-bars"></i>
+                </div>
+                <div class="circle">
+                    <i id="letter" class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="circle">
+                    <i id="lyrics" class="fa-solid fa-comment-dots"></i>
+                </div>
+                
+            </nav>
+    </div>
+
+    <script src="functions.js"></script>
+</body>
+</html>
