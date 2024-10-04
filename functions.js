@@ -167,6 +167,26 @@ const songs = {
             "color": "#0c1014"
    
         },
+        {
+            
+            "title": "Moonlit Floor",
+            "artist": "LISA",
+            "album": "Moonlit Floor - Single",
+            "code": "moonlitfloor.mp3",
+            "cover": "moonlitfloor.jpg",
+            "color": "#d7bc8d"
+   
+        },
+        {
+            
+            "title": "Mantra",
+            "artist": "Jennie",
+            "album": "Moonlit Floor - Single",
+            "code": "moonlitfloor.mp3",
+            "cover": "mantra.jpg",
+            "color": "#dfc1c6"
+   
+        },
         
         
         
